@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+.header-inicio-sesion {
+  /* Estilos específicos para el encabezado cuando estás en la página de inicio de sesión */
+  background-image: url('./assets/fondoHeaderAlternativo.JPG');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  opacity: 1; /* Quita la opacidad */
+}
