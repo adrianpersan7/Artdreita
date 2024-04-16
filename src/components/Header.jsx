@@ -16,7 +16,7 @@ const Header = ({ isInicioDeSesion }) => {
             <img src={Logo} alt="Personaje" className="h-20" />
           </div>
         </Link>
-        <h1 className="text-2xl text-white"></h1>
+        <h1 className="text-2xl text-white">hola pollita</h1>
         <div className="flex items-center">
           <img src={Carrito} alt="Carrito" className="h-10 transition-transform duration-700 transform hover:scale-150 mr-2" />
           <Link to="../InicioDeSesion">
